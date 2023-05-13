@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="summary-container">
+      <div id="summary-container-header">
+        <img id="img-hero" src="images/illustration-hero.svg" />
+      </div>
+      <div id="summary-container-order">
+        <div id="summary-container-order-text">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div id="summary-container-order-plan">
+          <div id="column-left">
+            <img src="images/icon-music.svg" id="icon-music" />
+          </div>
+          <div id="column-middle">
+            <p class="text-plan text-bold">Annual Plan</p>
+            <p class="text-plan">$59.99/year</p>
+          </div>
+          <div id="column-right">
+            <p class="text-plan">
+              <a href="https://www.google.com" target="_blank"><b>Change</b></a>
+            </p>
+          </div>
+        </div>
+        <div id="btn-container">
+          <button
+            id="btn-proceed"
+            onclick="window.open('https://www.google.com')"
+          >
+            Proceed to Payment
+          </button>
+        </div>
+        <div id="summary-container-footer">
+          <p class="text-plan">
+            <a href="https://www.google.com" target="_blank">Cancel order</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
